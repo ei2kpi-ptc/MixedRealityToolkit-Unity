@@ -1,8 +1,8 @@
 {
-	"name": "com.microsoft.mixedrealitytoolkit.services",
+	"name": "com.microsoft.mixedreality.toolkit.services",
 	"displayName": "Mixed Reality Toolkit Services",
-	"version": "2.0.0",
-	"unity": "2018.3",
+	"version": "2.1.0",
+	"unity": "2018.4",
 	"description": "Services for Mixed Reality Toolkit",
 	"keywords": [
 		"mrtk",
@@ -14,7 +14,7 @@
 	],
 	"author": "Microsoft Corporation",
 	"dependencies": {
-		"com.microsoft.mixedrealitytoolkit.sdk": "2.0.0",
-		"com.microsoft.mixedrealitytoolkit": "2.0.0"
+		"com.microsoft.mixedreality.toolkit.sdk": "2.1.0",
+		"com.microsoft.mixedreality.toolkit": "2.1.0"
 	}
 }

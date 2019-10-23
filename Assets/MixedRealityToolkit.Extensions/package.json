@@ -1,0 +1,17 @@
+{
+	"name": "com.microsoft.mixedreality.toolkit.extensions",
+	"displayName": "Mixed Reality Toolkit Extensions",
+	"version": "2.1.0",
+	"unity": "2018.4",
+	"description": "Extensions for use with MRTK.",
+	"keywords": [
+		"mrtk",
+		"microsoft",
+		"mixed",
+		"reality",
+		"augmented",
+		"virtual"
+	],
+	"author": "Microsoft Corporation",
+	"dependencies": {}
+}

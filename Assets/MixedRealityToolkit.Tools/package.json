@@ -1,9 +1,9 @@
 {
-	"name": "com.microsoft.mixedreality.toolkit.providers",
-	"displayName": "Mixed Reality Toolkit Providers",
+	"name": "com.microsoft.mixedreality.toolkit.tools",
+	"displayName": "Mixed Reality Toolkit Tools",
 	"version": "2.1.0",
 	"unity": "2018.4",
-	"description": "Providers for use with Mixed Reality Toolkit",
+	"description": "Tools for MRTK",
 	"keywords": [
 		"mrtk",
 		"microsoft",
@@ -14,6 +14,7 @@
 	],
 	"author": "Microsoft Corporation",
 	"dependencies": {
+		"com.microsoft.mixedreality.toolkit.sdk": "2.1.0",
 		"com.microsoft.mixedreality.toolkit": "2.1.0"
 	}
 }
