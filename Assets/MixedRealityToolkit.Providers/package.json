@@ -1,19 +1,22 @@
 {
-	"name": "com.microsoft.mixedreality.toolkit.providers",
-	"displayName": "Mixed Reality Toolkit Providers",
-	"version": "2.1.0",
-	"unity": "2018.4",
-	"description": "Providers for use with Mixed Reality Toolkit",
-	"keywords": [
-		"mrtk",
-		"microsoft",
-		"mixed",
-		"reality",
-		"augmented",
-		"virtual"
-	],
-	"author": "Microsoft Corporation",
-	"dependencies": {
-		"com.microsoft.mixedreality.toolkit": "2.1.0"
-	}
+    "name": "com.microsoft.mixedreality.toolkit.providers",
+    "displayName": "Mixed Reality Toolkit Providers",
+    "version": "2.1.0",
+    "unity": "2018.4",
+    "description": "Providers for use with Mixed Reality Toolkit. Packaged into a UPM module by PTC. https://github.com/ei2kpi-ptc/MixedRealityToolkit-Unity/tree/ptc_upm_release_branch/Assets/MixedRealityToolkit.Providers",
+    "keywords": [
+        "mrtk",
+        "microsoft",
+        "mixed",
+        "reality",
+        "augmented",
+        "virtual"
+    ],
+    "author": "Microsoft Corporation",
+    "publishConfig": {
+        "registry": "https://studio-nexus.rd1.thingworx.io/content/repositories/ptc.unity/"
+    },
+    "dependencies": {
+        "com.microsoft.mixedreality.toolkit": "2.1.0"
+    }
 }

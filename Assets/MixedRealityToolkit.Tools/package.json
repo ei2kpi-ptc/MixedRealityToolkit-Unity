@@ -1,20 +1,23 @@
 {
-	"name": "com.microsoft.mixedreality.toolkit.tools",
-	"displayName": "Mixed Reality Toolkit Tools",
-	"version": "2.1.0",
-	"unity": "2018.4",
-	"description": "Tools for MRTK",
-	"keywords": [
-		"mrtk",
-		"microsoft",
-		"mixed",
-		"reality",
-		"augmented",
-		"virtual"
-	],
-	"author": "Microsoft Corporation",
-	"dependencies": {
-		"com.microsoft.mixedreality.toolkit.sdk": "2.1.0",
-		"com.microsoft.mixedreality.toolkit": "2.1.0"
-	}
+    "name": "com.microsoft.mixedreality.toolkit.tools",
+    "displayName": "Mixed Reality Toolkit Tools",
+    "version": "2.1.0",
+    "unity": "2018.4",
+    "description": "Tools for MRTK. Packaged into a UPM module by PTC. https://github.com/ei2kpi-ptc/MixedRealityToolkit-Unity/tree/ptc_upm_release_branch/Assets/MixedRealityToolkit.Tools",
+    "keywords": [
+        "mrtk",
+        "microsoft",
+        "mixed",
+        "reality",
+        "augmented",
+        "virtual"
+    ],
+    "author": "Microsoft Corporation",
+    "publishConfig": {
+        "registry": "https://studio-nexus.rd1.thingworx.io/content/repositories/ptc.unity/"
+    },
+    "dependencies": {
+        "com.microsoft.mixedreality.toolkit.sdk": "2.1.0",
+        "com.microsoft.mixedreality.toolkit": "2.1.0"
+    }
 }
